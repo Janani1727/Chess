@@ -1,0 +1,16 @@
+ .box{
+    width: 87px;
+    height: 87px;
+    display: grid;
+    place-content: center;
+}
+
+
+.black-box{
+background-color: #779556 ;
+}
+
+
+ .white-box{
+    background-color: #ebecd0;
+}
