@@ -5,7 +5,21 @@
     place-content: center;
 }
 
+.box .chess-piece{
+width:100px;
+height:100px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 80px;
+}
 
+.box .chess-piece{
+    cursor: grab;
+}
+
+.box .chess-piece:active{
+    cursor: grabbing;
+}
 .black-box{
 background-color: #779556 ;
 }
@@ -14,3 +28,4 @@ background-color: #779556 ;
  .white-box{
     background-color: #ebecd0;
 }
+
